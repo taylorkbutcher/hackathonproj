@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Simple Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>MySite</h1>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <h2>Hello, I'm a Builder</h2>
+      <p>A simple static website starter.</p>
+      <button id="helloBtn">Say Hello</button>
+      <p id="message"></p>
+    </section>
+  </header>
+
+  <main>
+    <section id="about">
+      <h3>About</h3>
+      <p>This is a minimal HTML + CSS + JS project. No build step needed - just open index.html.</p>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="cards">
+        <div class="card">Project One</div>
+        <div class="card">Project Two</div>
+        <div class="card">Project Three</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMsg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 MySite</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
